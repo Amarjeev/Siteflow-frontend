@@ -3,7 +3,7 @@ import {
   fetchProjectbyIdApi,
   updateProjectApi,
   deleteProjectApi
-} from '../../../api/admin/Projects.api'
+} from '../../../api/admin/projects.apiiii'
 import { showSuccess } from '../../../utils/toast'
 import { createProjectValidation } from '../validations/createProject.validation'
 import { useParams, useNavigate } from 'react-router-dom'
