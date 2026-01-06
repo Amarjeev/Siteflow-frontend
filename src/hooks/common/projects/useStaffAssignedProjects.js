@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import {
-  fetchStaffAssignedProjectApi,
+  fetchStaffAssignedProjectByIdApi,
   fetchStaffAssignedProjectsApi
 } from '../../../api/staff/projects.api'
 import { useCallback } from 'react'
@@ -55,7 +55,7 @@ export const useStaffAssignedProjects = () => {
       setDetailsLoading(true)
       setDetailsError(null)
 
-      const response = await fetchStaffAssignedProjectApi(activeProjectId)
+      const response = await fetchStaffAssignedProjectByIdApi(activeProjectId)
       setSelectedProjectDetails(response?.project)
     } catch (error) {
       setDetailsError(
