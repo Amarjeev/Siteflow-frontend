@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react'
-import { deleteProjectReportsApi } from '../../../api/admin/Projects.api'
+import { deleteProjectReportsApi } from '../../../api/admin/projects.api'
 import { showError, showSuccess } from '../../../utils/toast'
 
 // ---------- Admin Delete Project Report Hook ----------
