@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { createProjectValidation } from '../validations/createProject.validation'
-import { createProjectApi } from '../../../api/admin/Projects.api'
+import { createProjectApi } from '../../../api/admin/projects.api'
 import { showSuccess } from '../../../utils/toast'
 
 // ---------- Admin Create Project Hook ----------

@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
-import { fetchProjectReportsApi } from '../../../api/admin/Projects.api'
+import { fetchProjectReportsApi } from '../../../api/admin/projects.api'
 
 // ---------- Admin Project Reports Hook ----------
 export const useAdminProjectReportsDetails = () => {
