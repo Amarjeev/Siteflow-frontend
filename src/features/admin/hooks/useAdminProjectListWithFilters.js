@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from 'react'
-import { fetchProjectApi } from '../../../api/admin/Projects.api'
+import { fetchProjectApi } from '../../../api/admin/projects.api'
 
 // ---------- Admin Project List With Filters Hook ----------
 export const useAdminProjectListWithFilters = () => {
